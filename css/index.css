@@ -1,0 +1,30 @@
+html { width: 100%; height: 100%; }
+
+body { height: 100%; display: -webkit-flex; flex-direction: column; font-size: 12px; }
+
+header { flex: 2; }
+header .h-t { width: 100%; height: 0.46rem; line-height: 0.44rem; background: #e4366b; }
+header .h-t p { font-size: 0.2rem; color: white; font-weight: bold; text-align: center; }
+header .h-b { width: 100%; height: 0.46rem; background: #52525a; overflow: hidden; }
+header .h-b .select { overflow: hidden; border-radius: 10px; height: 0.28rem; width: 80%; margin: 0.09rem auto; background: white; position: relative; }
+header .h-b .select i.iconfont { position: absolute; font-size: 0.2rem; padding: 0 0.13rem; line-height: 0.28rem; }
+header .h-b .select input { position: absolute; right: 0; top: 0; border: none; width: 85%; height: 0.28rem; font-size: 0.12rem; color: #cdcdcf; }
+
+.banner { flex: 3; position: relative; }
+.banner .swiper-container { position: absolute; width: 100%; height: 100%; }
+.banner .swiper-container .swiper-wrapper { width: 100%; height: 100%; }
+.banner .swiper-container .swiper-wrapper .swiper-slide img { width: 100%; height: 100%; }
+
+section { flex: 6; background: indianred; position: relative; }
+section #wrapper { position: absolute; width: 100%; height: 100%; overflow-y: scroll; }
+section #wrapper #scroll { position: absolute; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; width: 100%; height: 100%; }
+section #wrapper #scroll #pullDown { position: absolute; width: 100%; height: 40px; top: -40px; left: 0; text-align: center; }
+section #wrapper #scroll ul { width: 100%; }
+section #wrapper #scroll ul li { height: 1.1rem; width: 100%; }
+section #wrapper #scroll #pullUp { position: absolute; width: 100%; height: 40px; bottom: -40px; left: 0; text-align: center; z-index: -10; }
+
+footer { flex: 1; background: white; }
+footer ul { display: -webkit-flex; }
+footer ul li { display: -webkit-flex; flex-direction: column; flex: 1; justify-content: center; align-items: center; }
+footer ul li i { flex: 1; }
+footer ul li p { flex: 1; }
